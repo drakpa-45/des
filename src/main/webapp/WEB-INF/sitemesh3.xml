@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<sitemesh>
+    <mapping path="/building*" decorator="/layout/emptyLayout.jsp"/>
+    <mapping path="/*" decorator="/layout/loginLayout.jsp"/>
+    <mapping path="/common*" decorator="/layout/layoutMain.jsp"/>
+</sitemesh>
